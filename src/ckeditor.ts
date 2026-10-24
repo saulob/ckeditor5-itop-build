@@ -58,6 +58,7 @@ import UpdateInputOnChange from "./plugins/update-input-on-change/update-input-o
 import Disabler from "./plugins/disabler/disabler.plugin";
 import InsertHtml from './plugins/insert-html/insert-html.plugin';
 import InsertCarriageReturnAfterBlock from "./plugins/insert-carriage-return-after-block/insert-carriage-return-after-block.plugin";
+import UploadPastedImages from "./plugins/upload-pasted-images/upload-pasted-images.plugin";
 
 // You can read more about extending the build with additional plugins in the "Installing plugins" guide.
 // See https://ckeditor.com/docs/ckeditor5/latest/installation/plugins/installing-plugins.html for details.
@@ -188,7 +189,8 @@ class Editor extends ClassicEditor {
 		DetectChanges,
         UpdateInputOnChange,
         Disabler,
-        InsertCarriageReturnAfterBlock
+        InsertCarriageReturnAfterBlock,
+        UploadPastedImages
 	];
 
 	// default configuration editor
