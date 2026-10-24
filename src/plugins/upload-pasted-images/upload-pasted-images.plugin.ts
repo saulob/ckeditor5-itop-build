@@ -5,7 +5,7 @@ import type { ModelWriter } from '@ckeditor/ckeditor5-engine';
 /**
  * Elements that carry content which would be lost if the pasted HTML was replaced by an image upload.
  */
-const SIGNIFICANT_ELEMENTS_SELECTOR = 'table, video, audio, iframe, embed, object, svg, canvas';
+const SIGNIFICANT_ELEMENTS_SELECTOR = 'table, hr, video, audio, iframe, embed, object, svg, canvas';
 
 /**
  * UploadPastedImages Plugin.
